@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr id="banner">
+            <td id="banId">Weekly Diet & Exercise Tracker
+                <p id="banId2">Monitor your meals and workouts for a healthier lifestyle.</p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="leftContent">
+            <form>
+            <fieldset>
+                <legend><h3>Personal Info</h3></legend>
+                
+                <p>Name: <input type="text" name="name" id="name"></p>
+                <p>Age: <input type="number" name="name" id="age" min="0"></p>
+                <p>Gender: <select name="gender" id="dender">
+                <option disabled selected>--Select--</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+                </p>
+
+            </fieldset>
+            <fieldset>
+                <legend><h3>Diet Tracking (Mon-Fri)</h3></legend>
+                <table id="DT">
+                    <tr>
+                        <td class="Weekday">
+                            Day
+                        </td>
+                        <td >Calories</td>
+                    </tr>
+                    <tr>
+                        <td class="Weekday">Mon</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Tue</td>
+                        <td>
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Wed</td>
+                        <td class="Tbox">
+                            <input type="number"></td>
+                    </tr><tr>
+                        <td class="Weekday">Thu</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Fri</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Exercise (Mon-Fri)</h3></legend>
+                <table id="EX">
+                    <tr>
+                        <td class="Weekday">Day</td>
+                        <td >Minutes</td>
+                    </tr>
+                    <tr>
+                        <td class="Weekday">Mon</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Tue</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Wed</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Thu</td>
+                        <td class="Tbox">
+                            <input type="number" ></td>
+                    </tr><tr>
+                        <td class="Weekday">Fri</td>
+                        <td class="Tbox">
+                            <input type="number">
+                        </td>
+                    </tr>
+                </table>
+
+            </fieldset>    
+            <button>Submit</button>
+            <button>Reset</button>
+        </form>   
+        </td>
+        <td id="rightContent"><iframe src="Video/Mastering Consistency Diet & Exercise Made Simple - The Red Delta Project (720p, h264).mp4" frameborder="1"></iframe>
+        <p>Watch this video for tips on healthy eating and exercise!</p></td>
+        </tr>
+        
+    </table>        
+</body>
+</html>

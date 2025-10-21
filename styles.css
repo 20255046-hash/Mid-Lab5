@@ -1,0 +1,56 @@
+*{
+
+}
+table{
+    width: 90%;
+    margin: auto; 
+}
+#banner{
+    font-size: 30px;    
+    text-align: center;
+    background-color: lightgray;
+}
+#banId2{
+    font-size: 15px;
+}
+table tr #leftContent{
+    width: 50%;
+}
+table tr  #leftContent form fieldset #DT{
+    border: 1px solid black;
+    float: left;
+    border-spacing: 0px;
+    
+    width: 100px;
+}
+table tr  #leftContent form fieldset #DT td{
+    border: 1px solid black;
+}
+table tr  #leftContent form fieldset #EX{
+    border: 1px solid black;
+    float: left;
+    border-spacing: 0px;
+    
+    width: 100px;
+}
+table tr  #leftContent form fieldset #EX td{
+    border: 1px solid black;
+}
+table tr td  #leftContent form fieldset table #DT tr td .Weekday{
+    width: 20px;
+}
+table #rightContent{
+    text-align: center;
+    width: auto;
+}
+table tr #rightContent iframe{
+    height: 400px;
+    width: 600px;
+}
+
+
+td{
+    padding: 3px;
+}
+
+
